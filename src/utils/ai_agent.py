@@ -25,4 +25,4 @@ def ask_gpt_finance(client: OpenAI, user_message: str, db_context: str, chat_his
         )
         return response.choices[0].message.content
     except Exception as e:
-        return f"AI 응답 중 오류가 발생했습니다: {str(e)}"
+        return f"AI 응답 중 오류가 발생했습니다: {str(e)}" 
